@@ -101,9 +101,9 @@ const Hero = () => {
       <div className="relative z-20 text-center px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
         <div className="animate-fade-in-up">
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6">
-            <span className="block text-white mb-2">Abdullah</span>
+            <span className="block text-white mb-2">Muhammad</span>
             <span className="block bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
-              Baloch
+              Abdullah
             </span>
           </h1>
           
