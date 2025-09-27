@@ -39,8 +39,12 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
             <a href="#home" onClick={(e) => { e.preventDefault(); scrollToSection('#home'); }}
-               className="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
-              AB
+               className="flex items-center">
+              <img
+                src="https://github.com/abdullahbaloch.png"
+                alt="Abdullah Baloch"
+                className="w-10 h-10 rounded-full border-2 border-cyan-400/50 hover:border-cyan-400 transition-all duration-300 hover:scale-110"
+              />
             </a>
           </div>
           
